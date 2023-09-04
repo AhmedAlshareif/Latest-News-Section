@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    background-color: #fefefe;
+}
+
+.head {
+    text-align: center;
+}
+
+.head h2 {
+    font-weight: bolder;
+    color: rgb(6, 57, 91);
+    ;
+}
+
+.head hr {
+    margin-top: -10px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 3%;
+    width: 95%;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
+
+.card {
+    background-color: #fff;
+    width: 32%;
+    min-width: 200px;
+    height: 100%;
+    min-height: 550px;
+    padding-bottom: 2%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.image img {
+    width: 100%;
+    height: 280.9px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.card h3 {
+    color: rgb(6, 57, 91);
+    width: 90%;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.card span {
+    color: #928f8f;
+    font-weight: 550;
+    font-size: 15px;
+
+}
+
+.card p {
+    width: 90%;
+    font-size: 20px;
+    color: #706f6f;
+
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(6, 57, 91);
+    font-weight: bolder;
+}
+
+.details {
+    margin-left: 6%;
+}
+
+footer {
+    min-height: 340px;
+    width: 100%;
+    background-color: #263160;
+    margin-top: 5%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+.Sign-up {
+    background-color: rgb(2 37 89);
+    color: azure;
+    width: 50%;
+    padding: 3%;
+    padding-top: 2%;
+    border-radius: 8px;
+}
+
+.Sign-up h4 {
+    font-weight: 500;
+}
+
+.Sign-up input {
+    width: 72%;
+    height: 41px;
+    border-radius: 2px;
+    border: none;
+    padding-left: 3%;
+    margin-right: 2%;
+    font-size: large;
+}
+
+.but {
+    width: 20%;
+    height: 41px;
+    border: none;
+    background-color: rgb(229, 221, 0);
+    border-radius: 2px;
+    color: #444444;
+}
+
+.contact {
+    color: aliceblue;
+    width: 20%;
+
+}
+
+.contact ul {
+    list-style: none;
+    color: aliceblue;
+}
+
+.contact a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ul {
+
+    font-size: medium;
+    list-style: none;
+    color: aliceblue;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 200px;
+
+}
+
+.social-media {
+    width: 20%;
+}
+
+.social-media a {
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    line-height: 40px;
+    background-color:rgb(14 17 89);
+    color: aliceblue;
+    text-align: center;
+    border-radius: 2px;
+
+}
+
+.social-media span {
+    margin-left: 10%;
+}
